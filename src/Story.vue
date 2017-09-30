@@ -1,37 +1,25 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <story></story>
-  </div>
+  <blockquote>
+    <h1>{{ story.text }}</h1>
+    <span>- {{ story.author }}</span>
+  </blockquote>
 </template>
 
 <script>
 import data from './data'
-import Story from './Story.vue'
 
 export default {
-  name: 'app',
+  name: 'story',
 
-  components: {
-    'story': Story
+  data () {
+    return {
+      story: data.stories[Math.floor(Math.random() * data.stories.length)]  
+    }
   }
 }
 </script>
 
 <style lang="scss">
-html, body {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  color: #42b983;
-  background-color: #2c3e50;
-}
-
-#app {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  margin-top: 60px;
-}
-
 blockquote {
   width: 800px;
   margin: 0 auto;
