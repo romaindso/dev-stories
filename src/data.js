@@ -4,7 +4,7 @@ export default {
     author: 'Anonymous'
   },
   {
-    text: 'Maecenas interdum ultricies egestas. Curabitur fringilla ac orci ac interdum. Donec sodales ante id efficitur molestie.',
+    text: 'Maecenas interdum ultricies egestas. Curabitur hringilla ac orci ac interdum. Donec sodales ante id efficitur molestie.',
     author: 'Anonymous'
   },
   {
