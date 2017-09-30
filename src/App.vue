@@ -23,12 +23,12 @@ export default {
 
 <style lang="scss">
 html, body {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
   color: #42b983;
   background-color: #2c3e50;
 }
 
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -36,18 +36,19 @@ html, body {
 }
 
 blockquote {
-  width: 950px;
+  width: 800px;
   margin: 0 auto;
 
   h1 {
+    font-family: 'Lobster', cursive;
     font-size: 40px;
-    font-style: italic;
+    font-weight: 400;
     padding-left: 15px;
     border-left: 1px solid #42b983;
     text-align: left;
 
     &::before, &::after {
-      content: '"';
+      content: '" ';
     }
   }
   
