@@ -22,11 +22,10 @@ export default {
 <style lang="scss">
 blockquote {
   width: 800px;
-  margin: 0 auto;
 
   h1 {
     font-family: 'Lobster', cursive;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 400;
     padding-left: 15px;
     border-left: 1px solid #42b983;
