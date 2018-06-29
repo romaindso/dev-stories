@@ -6,17 +6,17 @@
 </template>
 
 <script>
-import data from './data'
+import data from "./data";
 
 export default {
-  name: 'story',
+  name: "story",
 
-  data () {
+  data() {
     return {
-      story: data.stories[Math.floor(Math.random() * data.stories.length)]  
-    }
+      story: data.stories[Math.floor(Math.random() * data.stories.length)]
+    };
   }
-}
+};
 </script>
 
 <style lang="scss">
@@ -24,18 +24,20 @@ blockquote {
   width: 800px;
 
   h1 {
-    font-family: 'Lobster', cursive;
+    font-family: "Avenir", Helvetica, Arial, sans-serif;
     font-size: 50px;
     font-weight: 400;
     padding-left: 15px;
     border-left: 1px solid #42b983;
     text-align: left;
+    line-height: 60px;
 
-    &::before, &::after {
+    &::before,
+    &::after {
       content: '" ';
     }
   }
-  
+
   span {
     display: block;
     color: #ccc;
