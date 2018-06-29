@@ -1,26 +1,27 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <h1>Dev stories</h1>
     <story></story>
   </div>
 </template>
 
 <script>
-import data from './data'
-import Story from './Story.vue'
+import data from "./data";
+import Story from "./Story.vue";
 
 export default {
-  name: 'app',
+  name: "app",
 
   components: {
-    'story': Story
+    story: Story
   }
-}
+};
 </script>
 
 <style lang="scss">
-html, body {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+html,
+body {
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   color: #42b983;
   background-color: #2c3e50;
 }
@@ -33,5 +34,12 @@ html, body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+#app > h1 {
+  font-family: "Lobster", cursive;
+  color: white;
+  font-size: 150px;
+  margin-top: 0;
 }
 </style>
