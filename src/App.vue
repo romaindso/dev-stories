@@ -1,8 +1,12 @@
 <template>
   <div id="app">
-    <h1>Dev stories</h1>
-    <story></story>
-    <a href="https://github.com/romaindso/dev-stories/pulls" target="_blank">Soumettre une story</a>
+    <div>
+      <h1>Dev stories</h1>
+      <story></story>
+    </div>
+    <footer>
+      <a href="https://github.com/romaindso/dev-stories/pulls" target="_blank">Soumettre une story</a>
+    </footer>
   </div>
 </template>
 
@@ -35,18 +39,21 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 100vh;
 }
 
-#app > h1 {
+#app > div > h1 {
   font-family: "Lobster", cursive;
   color: white;
   font-size: 100px;
 }
 
-#app > a {
-  position: absolute;
-  bottom: 10px;
+footer {
+  position: sticky;
+  top: 0;
+}
+
+footer a {
   color: white;
+  font-style: italic;
 }
 </style>
