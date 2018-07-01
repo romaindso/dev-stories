@@ -6,7 +6,7 @@
     <story></story>
     <footer>
       <a href="https://github.com/romaindso/dev-stories/pulls" target="_blank">Soumettre une story</a>
-      <a href="https://github.com/romaindso/dev-stories/" class="button button-next">Next story</a>
+      <a href="https://romaindso.github.io/dev-stories/" class="button button-next">Next story</a>
     </footer>
   </div>
 </template>
