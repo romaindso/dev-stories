@@ -51,6 +51,14 @@ export default {
     {
       text: `Mais est-ce que Java c'est pas un peu mort ?`,
       author: `Le manager`
+    },
+    {
+      text: `On a un problème, là. Non ?`,
+      author: `Un dev, devant le monitoring`
+    },
+    {
+      text: `L'infrastructure, c'est un truc d'ops, profond, profond`,
+      author: `Un ops à un dev`
     }
   ]
 };
