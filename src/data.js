@@ -47,6 +47,10 @@ export default {
     {
       text: `J'ai peur de comprendre ce code, et je ne sais pas si j'en ai envie`,
       author: `Un dev`
+    },
+    {
+      text: `Mais est-ce que Java c'est pas un peu mort ?`,
+      author: `Le manager`
     }
   ]
 };
