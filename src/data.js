@@ -21,7 +21,7 @@ export default {
       author: `Un dev`
     },
     {
-      text: `Le problème c'est pas que tu m'écoutes pas, c'est que tu me comprends pas`,
+      text: `Le problème c'est pas que tu ne m'écoutes pas, c'est que tu ne me comprends pas`,
       author: `Un couple de dev`
     },
     {
@@ -43,6 +43,10 @@ export default {
     {
       text: `La vérité est dans le code`,
       author: `Le tech lead`
+    },
+    {
+      text: `J'ai peur de comprendre ce code, et je ne sais pas si j'en ai envie`,
+      author: `Un dev`
     }
   ]
 };
