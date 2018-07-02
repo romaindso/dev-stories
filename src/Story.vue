@@ -34,7 +34,7 @@ blockquote {
 
     &::before,
     &::after {
-      content: '" ';
+      content: '"';
     }
   }
 
