@@ -59,6 +59,14 @@ export default {
     {
       text: `L'infrastructure, c'est un truc d'ops, profond, profond`,
       author: `Un ops à un dev`
+    },
+    {
+      text: `Ça marche sur mon poste`,
+      author: `Un dev`
+    },
+    {
+      text: `RTFM.`,
+      author: `Le techlead`
     }
   ]
 };
