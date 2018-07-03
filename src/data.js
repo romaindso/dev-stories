@@ -66,7 +66,15 @@ export default {
     },
     {
       text: `RTFM.`,
-      author: `Le techlead`
+      author: `Le tech lead`
+    },
+    {
+      text: `Les String, c'est la fête du slip..`,
+      author: `Un dev`
+    },
+    {
+      text: `Quand tu peux le monter, tu le montes. Quand tu ne peux pas, ben tu le montes pas`,
+      author: `Un tech lead à propos des dépendances`
     }
   ]
 };
