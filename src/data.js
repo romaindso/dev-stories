@@ -87,6 +87,10 @@ export default {
     {
       text: `On a qu'à faire un canal slack !`,
       author: `Le team lead`
+    },
+    {
+      text: `Je ne répète pas, j'réexplique mieux que toi`,
+      author: `Un dev`
     }
   ]
 };
