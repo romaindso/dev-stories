@@ -75,6 +75,18 @@ export default {
     {
       text: `Quand tu peux le monter, tu le montes. Quand tu ne peux pas, ben tu le montes pas`,
       author: `Un tech lead à propos des dépendances`
+    },
+    {
+      text: `C'est une erreur normal`,
+      author: `Un dev`
+    },
+    {
+      text: `Je comprends pas... Tu as essayé de supprimer les node_modules ?`,
+      author: `Un dev`
+    },
+    {
+      text: `On a qu'à faire un canal slack !`,
+      author: `Le team lead`
     }
   ]
 };
