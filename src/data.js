@@ -77,7 +77,7 @@ export default {
       author: `Un tech lead à propos des dépendances`
     },
     {
-      text: `C'est une erreur normal`,
+      text: `C'est une erreur normale`,
       author: `Un dev`
     },
     {
@@ -91,6 +91,10 @@ export default {
     {
       text: `Je ne répète pas, j'réexplique mieux que toi`,
       author: `Un dev`
+    },
+    {
+      text: `Ça ne respecte pas la philisophie du front legacy`,
+      author: `Le team lead`
     }
   ]
 };
