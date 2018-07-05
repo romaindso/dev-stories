@@ -93,8 +93,32 @@ export default {
       author: `Un dev`
     },
     {
-      text: `Ça ne respecte pas la philisophie du front legacy`,
+      text: `Ça ne respecte pas la philosophie du front legacy`,
       author: `Le team lead`
+    },
+    {
+      text: `Le MVP est simple. On veut tout`,
+      author: `Le PO`
+    },
+    {
+      text: `NodeJS c'est vraiment utilisé en prod ?`,
+      author: `Un dev Java`
+    },
+    {
+      text: `Le web c'est beaucoup trop lent`,
+      author: `Un dev desktop`
+    },
+    {
+      text: `On est en 2018`,
+      author: `Un dev web à propos du desktop`
+    },
+    {
+      text: `Dans Excel on peut le faire`,
+      author: `L'UX`
+    },
+    {
+      text: `Et là y'aura un ribbon comme dans Office`,
+      author: `L'UX`
     }
   ]
 };
