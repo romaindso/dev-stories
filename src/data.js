@@ -94,7 +94,7 @@ export default {
     },
     {
       text: `Ça ne respecte pas la philosophie du front legacy`,
-      author: `Le team lead`
+      author: `Un dev`
     },
     {
       text: `Le MVP est simple. On veut tout`,
