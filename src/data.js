@@ -119,6 +119,50 @@ export default {
     {
       text: `Et là y'aura un ribbon comme dans Office`,
       author: `L'UX`
+    },
+    {
+      text: `Y'a un décalage d'un pixel juste ici`,
+      author: `Le graphiste`
+    },
+    {
+      text: `T'as besoin d'une spec graphique ?`,
+      author: `Le graphiste à un dev`
+    },
+    {
+      text: `Je veux pas le savoir, le techno c'est votre problème`,
+      author: `Le graphiste`
+    },
+    {
+      text: `Tu peux le faire en sous marin ?`,
+      author: `Le graphiste`
+    },
+    {
+      text: `C'est juste une grille`,
+      author: `L'UX`
+    },
+    {
+      text: `Les perfs on verra plus tard`,
+      author: `Un dev`
+    },
+    {
+      text: `Prenez tous un Post-it`,
+      author: `Le coach agile`
+    },
+    {
+      text: `Il faut disrupter notre go to market pour un rollout worldwide`,
+      author: `Le marketing`
+    },
+    {
+      text: `Ça rentre pas, faut ré-estimer toute la backlog`,
+      author: `Le chef de projet`
+    },
+    {
+      text: `On a qu'à le déprioriser et faire une story UX`,
+      author: `Un dev`
+    },
+    {
+      text: `Pas de besoin d'écrire une doc, suffit de lire le code`,
+      author: `Un dev`
     }
   ]
 };
